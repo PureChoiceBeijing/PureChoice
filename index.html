@@ -3,55 +3,367 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="湛选科技(北京) 有限公司 — 创新科技，创造价值">
-  <title>湛选科技(北京) 有限公司</title>
+  <meta name="description" content="湛选科技（北京）有限公司 — 移动应用与数字化产品、人工智能与大模型应用、RAG/智能体等前沿技术落地，服务企业与创业团队。">
+  <meta name="keywords" content="移动应用开发,人工智能,大模型,RAG,智能体,Agent,AIGC,多模态,云原生,WebRTC,实时音视频,北京软件公司,湛选科技">
+  <title>湛选科技（北京）有限公司 | 移动应用 · AI 与数字化产品</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@400;500&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;1,9..40,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+  <div class="hero-bg" aria-hidden="true">
+    <div class="hero-bg__grid"></div>
+    <div class="hero-bg__orb hero-bg__orb--1"></div>
+    <div class="hero-bg__orb hero-bg__orb--2"></div>
+    <div class="hero-bg__orb hero-bg__orb--3"></div>
+  </div>
+
   <header class="site-header">
     <div class="header-inner">
-      <a href="#" class="logo" aria-label="湛选科技 首页">湛选科技(北京) 有限公司</a>
+      <a href="#" class="logo" aria-label="湛选科技 首页">
+        <span class="logo__mark" aria-hidden="true"></span>
+        <span class="logo__text">湛选科技</span>
+      </a>
       <nav class="nav" aria-label="主导航">
-        <a href="#about">关于我们</a>
+        <a href="#about">公司概况</a>
+        <a href="#services">业务与服务</a>
+        <a href="#innovation">AI 与前沿</a>
+        <a href="#process">研发流程</a>
+        <a href="#compliance">合规与隐私</a>
+        <a href="#legal">主体与备案</a>
         <a href="#contact">联系我们</a>
       </nav>
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="nav-panel" aria-label="打开菜单">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div id="nav-panel" class="nav-panel" hidden>
+      <a href="#about">公司概况</a>
+      <a href="#services">业务与服务</a>
+      <a href="#innovation">AI 与前沿</a>
+      <a href="#process">研发流程</a>
+      <a href="#compliance">合规与隐私</a>
+      <a href="#legal">主体与备案</a>
+      <a href="#contact">联系我们</a>
     </div>
   </header>
 
   <main>
     <section class="hero" aria-labelledby="hero-heading">
       <div class="hero-inner">
-        <h1 id="hero-heading" class="hero-title">湛选科技(北京) 有限公司</h1>
-        <p class="hero-slogan">创新科技，创造价值</p>
+        <p class="hero-eyebrow hero-animate">移动应用 · AI 与前沿技术 · 数字化落地</p>
+        <h1 id="hero-heading" class="hero-title hero-animate hero-animate--2">
+          <span class="hero-title__line">湛选科技（北京）有限公司</span>
+        </h1>
+        <p class="hero-lead hero-animate hero-animate--3">
+          我们专注于<strong>原生与跨平台移动应用</strong>，并围绕<strong>大模型、检索增强（RAG）、智能体（Agent）与多模态</strong>等方向，为企业与团队提供可上架、可运营、可扩展的软件产品与智能化能力。
+        </p>
+        <div class="hero-actions hero-animate hero-animate--4">
+          <a class="btn btn--primary" href="#contact">商务与合作咨询</a>
+          <a class="btn btn--ghost" href="#services">了解服务能力</a>
+          <a class="btn btn--ghost" href="#innovation">AI 与前沿方案</a>
+        </div>
+        <ul class="hero-stats hero-stats--4 hero-animate hero-animate--5" aria-label="服务特点">
+          <li><span class="hero-stats__num">全栈</span><span class="hero-stats__label">产品到交付</span></li>
+          <li><span class="hero-stats__num">iOS / Android</span><span class="hero-stats__label">双端与适配</span></li>
+          <li><span class="hero-stats__num">AI 工程化</span><span class="hero-stats__label">RAG · Agent · 多模态</span></li>
+          <li><span class="hero-stats__num">前沿集成</span><span class="hero-stats__label">云原生 · 实时 · 数据</span></li>
+        </ul>
       </div>
+      <a href="#about" class="hero-scroll" aria-label="向下滚动至公司概况">
+        <span class="hero-scroll__line"></span>
+      </a>
     </section>
 
-    <section id="about" class="about" aria-labelledby="about-heading">
-      <div class="about-inner">
-        <h2 id="about-heading" class="section-title">关于我们</h2>
-        <div class="about-content">
-          <p>湛选科技(北京) 有限公司致力于技术与产品的创新与研发，为客户提供高品质的科技解决方案。我们秉持专业、务实、创新的理念，持续提升产品与服务能力。</p>
-          <p>如需了解合作与业务详情，欢迎通过下方联系方式与我们沟通。</p>
+    <section id="about" class="section section--tight" aria-labelledby="about-heading">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <h2 id="about-heading" class="section-title">公司概况</h2>
+          <p class="section-desc">
+            湛选科技（北京）有限公司是一家以<strong>移动应用、软件产品与人工智能应用</strong>为核心的技术开发主体，面向企业与创业团队提供从需求梳理、交互与视觉设计、研发实现到上架协助、版本迭代的全流程服务；同时布局<strong>大模型落地、企业知识智能化、AIGC 与多模态交互</strong>等前沿方向。我们重视代码质量、用户体验、模型效果与长期可维护性，致力于将业务目标转化为稳定可靠、可演进的产品形态。
+          </p>
+        </header>
+        <div class="card-grid card-grid--4">
+          <article class="info-card" data-reveal>
+            <h3 class="info-card__title">产品导向</h3>
+            <p class="info-card__text">以可发布、可运营的产品为目标，统筹架构、性能、兼容性与后续扩展，避免「一次性交付」带来的技术债。</p>
+          </article>
+          <article class="info-card" data-reveal>
+            <h3 class="info-card__title">透明协作</h3>
+            <p class="info-card__text">采用阶段里程碑与可演示增量，便于客户把握进度；关键设计决策文档化，便于团队延续与交接。</p>
+          </article>
+          <article class="info-card" data-reveal>
+            <h3 class="info-card__title">AI 可落地</h3>
+            <p class="info-card__text">场景选型、RAG 与 Agent 编排、评测与监控并重，控制时延、成本与幻觉风险，让模型能力接入真实业务流程。</p>
+          </article>
+          <article class="info-card" data-reveal>
+            <h3 class="info-card__title">持续支持</h3>
+            <p class="info-card__text">应用商店材料协助、崩溃与数据分析、模型与依赖升级、小版本修复与大版本规划等，可按约提供后续合作。</p>
+          </article>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="contact" aria-labelledby="contact-heading">
-      <div class="contact-inner">
-        <h2 id="contact-heading" class="section-title">联系我们</h2>
-        <p class="contact-email">
-          <a href="mailto:contact@zhanxuan-tech.com">programer@zhanxuankeji.com</a>
-        </p>
+    <section id="services" class="section section--alt" aria-labelledby="services-heading">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <h2 id="services-heading" class="section-title">核心业务与服务能力</h2>
+          <p class="section-desc">以下为我们常见服务范围，具体方案可根据您的行业场景与预算定制。</p>
+        </header>
+        <div class="service-list">
+          <article class="service-block" data-reveal>
+            <div class="service-block__icon" aria-hidden="true">01</div>
+            <div class="service-block__body">
+              <h3 class="service-block__title">移动应用定制开发</h3>
+              <p class="service-block__text">iOS、Android 原生或跨平台方案选型与实现；含登录注册、支付对接（按合规要求）、消息推送、地图与多媒体等常见模块的工程落地。</p>
+            </div>
+          </article>
+          <article class="service-block" data-reveal>
+            <div class="service-block__icon" aria-hidden="true">02</div>
+            <div class="service-block__body">
+              <h3 class="service-block__title">产品设计与体验优化</h3>
+              <p class="service-block__text">信息架构、交互原型与界面视觉；适配不同机型的布局与无障碍基础考量；基于数据与反馈的迭代优化建议。</p>
+            </div>
+          </article>
+          <article class="service-block" data-reveal>
+            <div class="service-block__icon" aria-hidden="true">03</div>
+            <div class="service-block__body">
+              <h3 class="service-block__title">后端接口与系统集成</h3>
+              <p class="service-block__text">RESTful / 常见 BaaS 对接；企业内部系统、第三方 SaaS 的接口联调；基础安全与鉴权、日志与监控接入建议。</p>
+            </div>
+          </article>
+          <article class="service-block" data-reveal>
+            <div class="service-block__icon" aria-hidden="true">04</div>
+            <div class="service-block__body">
+              <h3 class="service-block__title">上架协助与版本维护</h3>
+              <p class="service-block__text">应用商店资料整理、截图与描述文案建议、隐私政策与权限说明配合（内容由客户最终确认）；修复缺陷、兼容新系统版本。</p>
+            </div>
+          </article>
+        </div>
+        <div class="tag-cloud" data-reveal aria-label="技术关键词">
+          <span class="tag">Swift / SwiftUI</span>
+          <span class="tag">Kotlin</span>
+          <span class="tag">Flutter</span>
+          <span class="tag">React Native</span>
+          <span class="tag">LLM / RAG</span>
+          <span class="tag">向量检索</span>
+          <span class="tag">Agent 工作流</span>
+          <span class="tag">Python / FastAPI</span>
+          <span class="tag">Web API</span>
+          <span class="tag">云原生</span>
+          <span class="tag">Git 协作</span>
+          <span class="tag">CI 基础流程</span>
+          <span class="tag">App Store Connect</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="innovation" class="section section--innovation" aria-labelledby="ai-heading">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <h2 id="ai-heading" class="section-title">人工智能与前沿业务</h2>
+          <p class="section-desc">
+            我们聚焦<strong>将 AI 与前沿能力产品化</strong>：在客户选定的模型与合规边界内，完成应用层设计、系统集成、评测与运维配套。涉及深度合成、算法推荐、生成式服务等场景时，<strong>行政许可与算法备案等义务由客户依法履行</strong>，我们可配合提供技术说明与实现支持。
+          </p>
+        </header>
+        <div class="service-list">
+          <article class="service-block service-block--ai" data-reveal>
+            <div class="service-block__icon" aria-hidden="true">A1</div>
+            <div class="service-block__body">
+              <h3 class="service-block__title">大语言模型应用与 RAG</h3>
+              <p class="service-block__text">企业知识库、文档问答与检索增强生成（RAG）；向量库与混合检索策略；提示工程、工具调用（Function Calling）与安全护栏；对接主流公有云或私有化推理服务，按场景优化时延与成本。</p>
+            </div>
+          </article>
+          <article class="service-block service-block--ai" data-reveal>
+            <div class="service-block__icon" aria-hidden="true">A2</div>
+            <div class="service-block__body">
+              <h3 class="service-block__title">智能体（Agent）与流程自动化</h3>
+              <p class="service-block__text">多步骤任务编排、与内部系统/API 联动的工作流；客服辅助、销售线索整理、运营脚本自动化等场景的工程落地；人机协同界面与审计日志设计，便于追溯与合规检查。</p>
+            </div>
+          </article>
+          <article class="service-block service-block--ai" data-reveal>
+            <div class="service-block__icon" aria-hidden="true">A3</div>
+            <div class="service-block__body">
+              <h3 class="service-block__title">多模态与交互创新</h3>
+              <p class="service-block__text">语音转写与合成、图像理解与 OCR 流水线在 App/Web 中的集成；相册智能整理、内容审核辅助等多模态场景；结合设备能力与云端推理的混合架构方案。</p>
+            </div>
+          </article>
+          <article class="service-block service-block--ai" data-reveal>
+            <div class="service-block__icon" aria-hidden="true">A4</div>
+            <div class="service-block__body">
+              <h3 class="service-block__title">AIGC 与内容生产管线</h3>
+              <p class="service-block__text">文案、营销素材、脚本等生成类工作流的产品化；与人审、版本管理、版权与品牌规范相结合的流水线设计；生成内容标识与水印等技术配合（具体合规要求以客户法务为准）。</p>
+            </div>
+          </article>
+          <article class="service-block service-block--ai" data-reveal>
+            <div class="service-block__icon" aria-hidden="true">A5</div>
+            <div class="service-block__body">
+              <h3 class="service-block__title">数据智能与可视化</h3>
+              <p class="service-block__text">业务指标看板、异常检测与预测类轻量模型；ETL/ELT 与数据仓库对接；BI 工具或自研前端展示；为运营与决策提供可解释的辅助分析能力。</p>
+            </div>
+          </article>
+          <article class="service-block service-block--ai" data-reveal>
+            <div class="service-block__icon" aria-hidden="true">A6</div>
+            <div class="service-block__body">
+              <h3 class="service-block__title">云原生、边缘与物联网集成</h3>
+              <p class="service-block__text">容器化部署、弹性伸缩与可观测性基础搭建；边缘侧推理网关与设备数据采集；与公有云 AI/大数据服务的整合，支撑高可用与渐进式演进。</p>
+            </div>
+          </article>
+          <article class="service-block service-block--ai" data-reveal>
+            <div class="service-block__icon" aria-hidden="true">A7</div>
+            <div class="service-block__body">
+              <h3 class="service-block__title">实时音视频与协作场景</h3>
+              <p class="service-block__text">WebRTC 音视频会议、屏幕共享与低延迟互动；在线教育、远程运维、社交与直播类产品的客户端与信令层实现；与录制、转写、实时字幕等 AI 能力组合。</p>
+            </div>
+          </article>
+          <article class="service-block service-block--ai" data-reveal>
+            <div class="service-block__icon" aria-hidden="true">A8</div>
+            <div class="service-block__body">
+              <h3 class="service-block__title">区块链与链上数据应用（合规前提下）</h3>
+              <p class="service-block__text">链上数据索引与可视化、钱包连接与签名流程、NFT/数字藏品展示类应用的技术实现；在现行监管框架内协助架构选型，<strong>不涉及非法代币发行与交易撮合</strong>，具体业务合规由客户自行论证。</p>
+            </div>
+          </article>
+          <article class="service-block service-block--ai" data-reveal>
+            <div class="service-block__icon" aria-hidden="true">A9</div>
+            <div class="service-block__body">
+              <h3 class="service-block__title">行业智能化与垂直场景</h3>
+              <p class="service-block__text">政务、金融、医疗、制造、零售等领域的对话式查询、工单辅助、设备运维助手等场景定制；结合行业词表与流程模板，缩短冷启动周期并提升回答可控性。</p>
+            </div>
+          </article>
+        </div>
+        <div class="tag-cloud tag-cloud--accent" data-reveal aria-label="AI 与前沿技术关键词">
+          <span class="tag">GPT / Claude / 国产大模型</span>
+          <span class="tag">Embedding</span>
+          <span class="tag">LangChain / 自研编排</span>
+          <span class="tag">MCP / 工具生态</span>
+          <span class="tag">微调与 LoRA（协助）</span>
+          <span class="tag">实时语音</span>
+          <span class="tag">WebRTC</span>
+          <span class="tag">区块链浏览器 / WalletConnect</span>
+          <span class="tag">Kubernetes</span>
+          <span class="tag">Serverless</span>
+          <span class="tag">低代码 + 定制扩展</span>
+          <span class="tag">可观测性</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section" aria-labelledby="process-heading">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <h2 id="process-heading" class="section-title">典型研发流程</h2>
+          <p class="section-desc">流程可根据项目体量压缩或拆分，以下为常见合作节奏说明。</p>
+        </header>
+        <ol class="timeline" data-reveal>
+          <li class="timeline__item">
+            <span class="timeline__step">1</span>
+            <div class="timeline__content">
+              <h3 class="timeline__title">需求与范围确认</h3>
+              <p>澄清业务目标、用户角色、核心功能与优先级；输出范围说明，约定里程碑与验收方式。</p>
+            </div>
+          </li>
+          <li class="timeline__item">
+            <span class="timeline__step">2</span>
+            <div class="timeline__content">
+              <h3 class="timeline__title">设计与技术方案</h3>
+              <p>交互与视觉定稿或高保真原型；技术选型、模块划分与接口约定；含 AI 项目时同步数据流、模型调用链、评测指标与回退策略；风险点与依赖项同步。</p>
+            </div>
+          </li>
+          <li class="timeline__item">
+            <span class="timeline__step">3</span>
+            <div class="timeline__content">
+              <h3 class="timeline__title">迭代开发与联调</h3>
+              <p>按迭代交付可测试版本；与客户侧或第三方系统联调；含 AI 场景时同步离线/在线评测集回归与线上监控看板；问题跟踪与全量回归测试。</p>
+            </div>
+          </li>
+          <li class="timeline__item">
+            <span class="timeline__step">4</span>
+            <div class="timeline__content">
+              <h3 class="timeline__title">验收、上架与移交</h3>
+              <p>验收测试与文档/代码移交（按合同约定）；协助应用商店提审材料准备；商定后续维护方式。</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="compliance" class="section section--alt" aria-labelledby="compliance-heading">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <h2 id="compliance-heading" class="section-title">合规、隐私与商店审核配合</h2>
+          <p class="section-desc">应用上架与持续运营需满足平台规则与适用法律。我们在项目中配合客户提供技术性说明与实现层面的支持；<strong>法律文本（隐私政策、用户协议等）须由客户聘请法律顾问审定并以客户名义发布。</strong></p>
+        </header>
+        <div class="card-grid card-grid--compliance">
+          <article class="info-card info-card--border" data-reveal>
+            <h3 class="info-card__title">隐私与数据最小化</h3>
+            <p class="info-card__text">在工程实现上遵循权限按需申请、敏感数据加密传输与存储建议、日志脱敏等实践；协助梳理 App 收集的数据类型与使用目的，便于撰写隐私政策与商店问卷。</p>
+          </article>
+          <article class="info-card info-card--border" data-reveal>
+            <h3 class="info-card__title">内容与安全</h3>
+            <p class="info-card__text">用户生成内容、登录与支付等场景，按监管与平台要求分层设计；提供接口鉴权、防刷与基础安全加固方面的实现建议。</p>
+          </article>
+          <article class="info-card info-card--border" data-reveal>
+            <h3 class="info-card__title">人工智能合规配合</h3>
+            <p class="info-card__text">生成式人工智能服务、深度合成、算法推荐等场景可能涉及备案、评估、标识与数据出境等要求。我们可在产品与工程侧配合落实技术措施与说明材料，<strong>法律责任与申报主体以客户及法律顾问结论为准</strong>。</p>
+          </article>
+        </div>
+        <p class="fine-print" data-reveal>本页面描述为一般性服务说明，不构成法律意见。具体合规义务以您所在司法辖区及合同约定为准。</p>
+      </div>
+    </section>
+
+    <section id="legal" class="section" aria-labelledby="legal-heading">
+      <div class="container">
+        <header class="section-head" data-reveal>
+          <h2 id="legal-heading" class="section-title">主体信息与网站备案</h2>
+          <p class="section-desc">下列主体信息与营业执照登记内容一致，供合作方与备案核验参考。<strong>ICP 备案号</strong>于本页最底部页脚公示，备案通过后请在页脚更新为实际编号。</p>
+        </header>
+        <div class="legal-table-wrap" data-reveal>
+          <table class="legal-table">
+            <caption class="visually-hidden">公司主体与备案信息</caption>
+            <tbody>
+              <tr>
+                <th scope="row">公司全称</th>
+                <td>湛选科技（北京）有限公司</td>
+              </tr>
+              <tr>
+                <th scope="row">统一社会信用代码</th>
+                <td><code class="mono">91110106MAEQ57XM2U</code></td>
+              </tr>
+              <tr>
+                <th scope="row">住所</th>
+                <td>北京市丰台区百强大道10号楼15至16层2单元1518-2960</td>
+              </tr>
+              <tr>
+                <th scope="row">登记机关</th>
+                <td>北京市丰台区市场监督管理局</td>
+              </tr>
+              <tr>
+                <th scope="row">经营范围（摘要）</th>
+                <td class="legal-table__scope">一般项目：技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广；软件开发；信息技术咨询服务；软件销售等。具体以国家企业信用信息公示系统及营业执照全文为准。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="fine-print" data-reveal>根据《非经营性互联网信息服务备案管理办法》等规定，网站完成备案后应在首页底部展示备案号并链接至工信部备案管理系统网址（<a href="https://beian.miit.gov.cn/" rel="noopener noreferrer" target="_blank">https://beian.miit.gov.cn/</a>）。</p>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
+  <footer class="site-footer" id="contact" aria-labelledby="footer-contact-label">
     <div class="footer-inner">
-      <p class="copyright">&copy; <span id="year"></span> 湛选科技(北京) 有限公司</p>
+      <p class="footer-brand">湛选科技（北京）有限公司</p>
+      <div class="footer-bottom-bar">
+        <span id="footer-contact-label" class="visually-hidden">联系我们与备案信息</span>
+        <span class="footer-bottom-item">
+          <span class="footer-bottom-label">联系我们</span>
+          <a href="mailto:programer@zhanxuankeji.com">programer@zhanxuankeji.com</a>
+        </span>
+        <span class="footer-bottom-sep" aria-hidden="true">·</span>
+        <a class="footer-bottom-icp placeholder-link" href="https://beian.miit.gov.cn/" rel="noopener noreferrer" target="_blank" title="备案通过后请替换为真实备案号并保留此链接">【ICP备案号待申领】</a>
+        <span class="footer-bottom-sep" aria-hidden="true">·</span>
+        <span class="footer-bottom-copy">&copy; <span id="year"></span> 湛选科技（北京）有限公司 保留所有权利</span>
+      </div>
     </div>
   </footer>
 
